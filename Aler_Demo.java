@@ -23,6 +23,8 @@ public class Aler_Demo {
 
 		WebElement okay = driver.findElement(By.xpath("//button[@onclick='alertbox()']"));
 		okay.click();
+		
+		driver.quit();
 
 	}
 
